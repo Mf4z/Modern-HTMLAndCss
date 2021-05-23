@@ -45,14 +45,34 @@ p{
     color: #fff;
     font-size: 18px;
     background-color: #333;
-    padding: 14px 20px;
+    padding: 13px 20px;
     cursor: pointer;
     border: none;
+}
+
+.btn-light{
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 .btn:hover{
     background-color: #f7c08a;
     color: #333;
+}
+
+.bg-dark{
+    background-color: #333;
+    color: #fff;
+}
+
+.bg-light{
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary{
+    background-color: #333;
+    color: #f7c08a;
 }
 
 /* Navbar */
@@ -111,6 +131,30 @@ p{
     padding-bottom: 20px;
     line-height: 1.7em;
 }
-    
+
+/* Home Info */
+#home-info{
+    height: 400px;
+}
+
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('../img/photo-1.jpg') no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    padding: 50px 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#home-info .info-content p{
+    padding-bottom: 30px;
+}
 
 
