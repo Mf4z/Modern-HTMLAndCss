@@ -1,0 +1,203 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Top Navigation */
+header{
+    /* background-color: #÷002642; */
+    background-color: #daddd8;
+    padding: 20px;
+}
+
+nav{
+    /* padding: 20px; */
+    /* background-color: rebeccapurple; */
+    /* height: 60px; */
+    overflow: auto;
+}
+
+nav h1{
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+}
+
+nav h1:hover{
+    cursor: pointer;
+}
+nav .menu{
+    display: inline;
+    list-style: none;
+    float: right;
+    overflow: auto;
+}
+
+nav .menu li{
+    float: left;
+}
+
+nav .menu li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navigation li a:hover {
+    background-color: #628395;
+}
+
+
+/* Intro Section of Hotel,First Section */
+.intro-section{
+    position: relative;
+    background-color: blue;
+    background-image: url(./img/e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+}
+
+
+.intro-section .intro-content{
+    /* background-color: azure; */
+    width: 70%;
+    margin: auto;
+    padding: 100px 0 50px 0;
+    text-align: center;
+    color: #F5E0B7;
+    /* color: #E5ECF4; */
+}
+
+.intro-section .intro-content h1{
+    padding: 20px;
+    font-size: 3.4rem;
+}
+
+.highlight{
+    color: #9E4770;
+}
+
+.custom-button{
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    /* background-color: #628395; */
+    background-color: #002642;
+    color: white;
+    /* #002642; */
+
+}
+
+.custom-button:hover{
+    cursor: pointer;
+    background-color: #001829;
+}
+
+/* About Section, Second Section */
+.about-section{
+    background-color: red;
+}
+
+.about-section .top-content{
+    background-color: rosybrown;
+}
+
+.about-section .top-content .image-box{
+    /* background-color: seagreen; */
+    display: inline-block;
+    background-image: url(./img/h.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:left;
+    width: 50%;
+    height: 250px;
+}
+
+.about-section .top-content .content-box{
+    /* background-color:#002642; */
+    background-color:#FAFAFF;
+    display: inline-block;
+    float: right;
+    width: 50%;
+    height: 250px;
+    text-align: center;
+    color: #F5E0B7;
+    padding: 10px;
+}
+
+.about-section .top-content .content-box h3{
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+#read-more{
+    background-color:lightgray;
+    color: #9E4770;
+}
+
+#read-more:hover{
+    background-color: darkgray;
+}
+
+/* Icon Section, Third Section */
+.icons-section{
+    background-color: yellow;
+}
+
+.icons-section .icons-content .icon-tile {
+    /* background-color: #F5E0B7;; */
+    /* float: left; */
+    /* width: 33%; */
+    display: inline-block;
+    height: 175px;
+    text-align: center;
+    line-height: 1.4rem;
+    padding: 25px;
+}
+.icons-section .icons-content .icon-tile-one {
+    background-color: #FAFAFF;;
+    float: left;
+    width: 33%;
+    /* display: inline-block; */
+}
+
+.icons-section .icons-content .icon-tile-two {
+    background-color: #1C1C1C;
+    /* float: right; */
+    width: 34%;
+    display: inline-block;
+    color: #FAFAFF;
+}
+
+.icons-section .icons-content .icon-tile-three {
+    background-color:#FAFAFF;
+    float: right;
+    width: 33%;
+    display: inline-block;
+}
+
+.fas{
+    font-size: 40px;
+    margin-bottom:10px;
+}
+
+.icons-section .icons-content .icon-tile h3{
+    padding:50px 0;
+}
+
+footer{
+    padding: 25px;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #9E4770;;
+}
