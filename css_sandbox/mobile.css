@@ -1,0 +1,4 @@
+/* This is an example to show how media queries can put in a different stylesheet */
+body{
+    background: pink;
+}
