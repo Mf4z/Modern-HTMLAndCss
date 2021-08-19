@@ -67,6 +67,7 @@
 .flex-columns.flex-reverse .row{
     flex-direction: row-reverse;
 }
+
 .flex-columns .row{
     display: flex;
     flex-wrap: wrap;
@@ -140,6 +141,6 @@
 
 .flex-grid .column{
     flex: 25%;
-    width: 25%;
+    max-width: 25%;
     padding: 0 4px;
 }
